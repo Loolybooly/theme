@@ -24,9 +24,6 @@
   --scrollbar-thin-thumb: var(--highlight);
   --scrollbar-auto-thumb: var(--highlight);
   --scrollbar-auto-scrollbar-color-thumb: var(--highlight);
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-track: transparent;
-  --scrollbar-auto-scrollbar-color-track: transparent;
 
   --transition-time: 0.3s;
   --background-image: unset;
@@ -72,8 +69,8 @@
   --textbox-markdown-syntax: var(--text-link);
   --logo-primary: var(--highlight);
 
-  --background-mentioned: rgba(50, 50, 200);
-  --background-mentioned-hover: rgb(50, 50, 200);
+  --background-mentioned: rgb(255, 174, 0);
+  --background-mentioned-hover: rgb(255, 123, 0);
   --background-message-hover: rgba(255, 122, 122, 0.151);
   --background-message-highlight: rgba(var(--rgb-highlight), 0.3);
   --background-message-highlight-hover: rgb(255, 122, 122, 0.61);
