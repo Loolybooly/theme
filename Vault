@@ -25,7 +25,7 @@
   --background-mobile-secondary: var(--background);
   --background-modifier-accent: rgba(var(--rgb-highlight), 0.2);
   --background-modifier-active: rgba(var(--rgb-highlight), 0.3);
-  --background-modifier-hover: rgba(255, 122, 122, 0);
+  --background-modifier-hover: rgb(18, 18, 18);
   --background-modifier-selected: rgb(255, 122, 122, 0.61);
   --background-nested-floating: var(--background);
   --background-position: center;
