@@ -69,8 +69,8 @@
   --textbox-markdown-syntax: var(--text-link);
   --logo-primary: var(--highlight);
 
-  --background-mentioned: rgb(255, 174, 0);
-  --background-mentioned-hover: rgb(255, 123, 0);
+  --background-mentioned: rgb(255, 122, 122, 0.61);
+  --background-mentioned-hover: rgb(255, 122, 122, 0.61);
   --background-message-hover: rgba(255, 122, 122, 0.151);
   --background-message-highlight: rgba(var(--rgb-highlight), 0.3);
   --background-message-highlight-hover: rgb(255, 122, 122, 0.61);
