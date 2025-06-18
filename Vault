@@ -14,8 +14,8 @@
   --background-floating: var(--background);
   --background-floating: rgba(50, 50, 200, 0) !important;
   --background-image: unset;
-  --background-mentioned: rgba(255, 102, 0, 0.35);
-  --background-mentioned-hover: rgba(255, 122, 122, 0.5);
+  --background-mentioned: rgba(255, 122, 122, 0.61);
+  --background-mentioned-hover: rgba(255, 122, 122, 0.61);
   --background-message-automod: rgba(var(--rgb-highlight), 0.2);
   --background-message-automod-hover: rgba(var(--rgb-highlight), 0.4);
   --background-message-highlight: rgba(var(--rgb-highlight), 0.3);
