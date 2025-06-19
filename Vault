@@ -5,14 +5,13 @@
   --activity-card-background: var(--background);
   --afk-color: rgb(var(--rgb-afk-color));
   --app-border-frame: rgb(var(--rgb-highlight));
-  --background: rgba(58, 58, 58, 0.301);
+  --background: rgba(58, 58, 58, 0.336);
   --background-accent: var(--background);
   --background-base-low: var(--background);
   --background-base-lowest: var(--background);
   --background-blur: 0px;
   --background-brightness: 100%;
-  --background-floating: var(--background);
-  --background-floating: rgba(50, 50, 200, 0) !important;
+  --background-floating: rgb(0, 0, 0) !important;
   --background-image: unset;
   --background-mentioned: rgba(255, 122, 122, 0.61);
   --background-mentioned-hover: rgba(255, 122, 122, 0.61);
@@ -25,16 +24,15 @@
   --background-mobile-secondary: var(--background);
   --background-modifier-accent: rgba(var(--rgb-highlight), 0.2);
   --background-modifier-active: rgba(var(--rgb-highlight), 0.3);
-  --background-modifier-hover: rgb(18, 18, 18);
+  --background-modifier-hover: rgb(20, 20, 20);
   --background-modifier-selected: rgb(255, 122, 122, 0.61);
   --background-nested-floating: var(--background);
   --background-position: center;
   --background-primary: var(--background);
-  --background-secondary: var(--background);
-  --background-secondary: rgba(50, 50, 200, 0) !important;
+  --background-secondary: rgb(0, 0, 0) !important;
   --background-secondary-alt: var(--background);
   --background-size: cover;
-  --background-surface-high: var(--background);
+  --background-surface-high: rgb(20, 20, 20);
   --background-tertiary: var(--background);
   --bg-brand: var(--highlight);
   --bg-surface-overlay: var(--background);
@@ -154,6 +152,12 @@
   --modal-footer-background: var(--background);
   --online-color: rgb(var(--rgb-online-color));
   --primary-630: var(--background);
+  --profile-body-background-color: rgb(0, 0, 0) !important;
+  --profile-gradient-button-color: rgb(0, 0, 0) !important;
+  --profile-gradient-note-background-color: rgb(0, 0, 0) !important;
+  --profile-gradient-overlay-color: rgb(0, 0, 0) !important;
+  --profile-gradient-primary-color: rgb(0, 0, 0) !important;
+  --profile-gradient-secondary-color: rgb(0, 0, 0) !important;
   --rgb-afk-color: 255, 255, 51;
   --rgb-background: 0, 0, 0;
   --rgb-close-button: 50, 50, 50;
@@ -186,4 +190,22 @@
   --text-warning: var(--afk-color);
   --textbox-markdown-syntax: var(--text-link);
   --transition-time: 0.3s;
+}
+
+.userPopout-2j1gM4,
+.userProfileInner-3F03PX,
+.profileColors-3Y0F2V,
+.userProfileInnerNonPremium-1XjSjn,
+.userProfileInnerPremium-2Id9Yl,
+.userProfileModalInner-3fh3QA,
+.userProfileModalOuter-2wdWjU,
+.userProfileInnerThemedWithBanner-2624Yx,
+.profileBanner-2pEN9V,
+.userProfileOuterThemed-3EfHmv,
+.root-1gCeng,
+.userProfileInnerThemedNonPremium-1gT-zY {
+  background-color: rgb(0, 0, 0) !important;
+  backdrop-filter: none !important;
+  background-image: none !important;
+  opacity: 1 !important;
 }
