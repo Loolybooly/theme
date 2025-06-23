@@ -161,7 +161,7 @@
   --rgb-afk-color: 255, 255, 51; /* idk */
   --rgb-background: 0, 0, 0; /* idk */
   --rgb-close-button: 50, 50, 50; /* idk */
-  --rgb-dnd-color: 122, 122, 255; /* idk */
+  --rgb-dnd-color: 255, 50, 50; /* idk */
   --rgb-highlight: 255, 122, 122, 0.7; /* highlight for the 3rd time..? */
   --rgb-online-color: 57, 175, 20; /* idk */
   --rgb-streaming-color: 188, 19, 254; /* idk */
@@ -190,22 +190,4 @@
   --text-warning: var(--afk-color); /* idk */
   --textbox-markdown-syntax: var(--text-link); /* idk */
   --transition-time: 0.3s; /* transition time */
-}
-
-.userPopout-2j1gM4,
-.userProfileInner-3F03PX,
-.profileColors-3Y0F2V,
-.userProfileInnerNonPremium-1XjSjn,
-.userProfileInnerPremium-2Id9Yl,
-.userProfileModalInner-3fh3QA,
-.userProfileModalOuter-2wdWjU,
-.userProfileInnerThemedWithBanner-2624Yx,
-.profileBanner-2pEN9V,
-.userProfileOuterThemed-3EfHmv,
-.root-1gCeng,
-.userProfileInnerThemedNonPremium-1gT-zY {
-  background-color: rgb(0, 0, 0) !important;
-  backdrop-filter: none !important;
-  background-image: none !important;
-  opacity: 1 !important;
 }
