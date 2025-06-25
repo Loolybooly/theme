@@ -37,7 +37,7 @@
   --background-size: cover; /* idk */
   --background-surface-high: rgb(20, 20, 20); /* background for emebers and profiles */
   --background-tertiary: var(--background); /* idk */
-  --bg-brand: rgba(0, 195, 255, 0.74); /*background for the thing that says app */
+  --bg-brand: rgba(0, 100, 255, 0.6); /*background for the thing that says app */
   --bg-surface-overlay: var(--background); /* same for the thing below ts */
   --border-faint: rgb(var(--rgb-highlight)); /* the line between server list, channels, chat, and member list */
   --border-subtle: rgb(var(--rgb-highlight)); /* same for the shit above ts but better */
