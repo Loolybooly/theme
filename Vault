@@ -13,8 +13,8 @@
   --background-brightness: 100%; /* idk */
   --background-floating: rgb(0, 0, 0) !important; /* i fargot */
   --background-image: unset; /* image for the background */
-  --background-mentioned: rgba(255, 122, 122, 0.61); /*normal background of a message when ur mentioned in a message */
-  --background-mentioned-hover: rgba(255, 122, 122, 0.61); /*background of ur mentioned in a message when u hover over it*/
+  --background-mentioned: rgba(255, 122, 122, 0.17); /*normal background of a message when ur mentioned in a message */
+  --background-mentioned-hover: rgba(255, 122, 122, 0.17); /*background of ur mentioned in a message when u hover over it*/
   --background-message-automod: rgba(var(--rgb-highlight), 0.2); /* idk */
   --background-message-automod-hover: rgba(var(--rgb-highlight), 0.4); /* idk */
   --background-message-highlight: rgba(var(--rgb-highlight), 0.3); /* idk */
