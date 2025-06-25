@@ -1,4 +1,8 @@
 /* stop looking at the source code */
+/* this is just some things that support the other stuff in the theme*/
+@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
+@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
+
 :root,
 .theme-dark,
 .theme-light {
@@ -190,4 +194,119 @@
   --text-warning: var(--afk-color); /* idk */
   --textbox-markdown-syntax: var(--text-link); /* idk */
   --transition-time: 0.3s; /* transition time */
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+
+  --rs-avatar-shape: 50%;
+
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-self-speaking-color: #57d39b;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: none;
+}
+
+*::selection {
+  background: rgba(0, 26, 255, 0) !important;
+  color: rgb(0, 162, 255) !important;
+}
+
+.typing_b88801.base_b88801 {
+  margin-bottom: 6px;
+  margin-left: 4px;
+}
+
+.typing_b88801.base_b88801 > * {
+  line-height: 10px !important;
+  font-size: 10px !important;
+}
+
+.typing_b88801.base_b88801 > div > span > strong > div > svg {
+  height: 10px !important;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 {
+  font-size: 0;
+  height: 16px;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong {
+  font-size: 12px;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong::after {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child::after {
+  content: " is yapping...";
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:last-child:not(:first-child)::after {
+  content: " are yapping...";
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:nth-last-child(2)::after {
+  content: " and ";
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong:nth-last-child(3)::after {
+  content: ", ";
+}
+
+.typingDots_b88801 > .ellipsis_b88801 + .text_b88801:not(:has(>strong))::after {
+  font-size: 12px;
+  content: "Several people are yapping...";
+}
+
+.username-1A8OIy[href="/users/1236215647310975016]::after {
+  content: "OWNER";
+  background-color: #3b82f6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 6px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.channelBottomBarArea_f75fb0 > div {
+  margin: 10px 6px 9px 6px !important;
+  min-height: 60px;
+}
+
+.channelBottomBarArea_f75fb0 > div > div.scrollableContainer__74017 {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-4px);
+  width: 100%;
+}
+
+.attachWrapper__0923f > button {
+  margin-left: -9px !important;
+}
+
+.stackedBars__74017 {
+  margin-bottom: 55px;
+}
+
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
+.separator_f84418 {
+  display: none;
 }
