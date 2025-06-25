@@ -1,8 +1,4 @@
 /* stop looking at the source code */
-/* this is just some things that support the other stuff in the theme*/
-@import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
-@import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
-
 :root,
 .theme-dark,
 .theme-light {
@@ -271,19 +267,6 @@
   content: "Several people are yapping...";
 }
 
-.username-1A8OIy[href="/users/1236215647310975016]::after {
-  content: "OWNER";
-  background-color: #3b82f6;
-  color: white;
-  padding: 2px 6px;
-  border-radius: 3px;
-  font-size: 10px;
-  font-weight: 600;
-  margin-left: 6px;
-  vertical-align: middle;
-  text-transform: uppercase;
-}
-
 .channelBottomBarArea_f75fb0 > div {
   margin: 10px 6px 9px 6px !important;
   min-height: 60px;
@@ -302,11 +285,4 @@
 
 .stackedBars__74017 {
   margin-bottom: 55px;
-}
-
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
-.separator_f84418 {
-  display: none;
 }
