@@ -2,16 +2,19 @@
 :root,
 .theme-dark,
 .theme-light {
+  /* this is just some css snippets to help the code */
+  @import url('https://raw.githubusercontent.com/surgedevs/visual-refresh-compact-title-bar/refs/heads/main/desktop.css');
+  @import url('https://discordstyles.github.io/RadialStatus/RadialStatus.css');
   --activity-card-background: var(--background); /* idk */
   --afk-color: rgb(var(--rgb-afk-color)); /* idk */
   --app-border-frame: rgb(var(--rgb-highlight)); /* idk */
   --background: rgba(58, 58, 58, 0.336);  /* background */
   --background-accent: var(--background);  /* idk */
   --background-base-low: rgb(20, 20, 20);  /* background for the use profile in the bottom */
-  --background-base-lowest: var(--background);  /* background for the channels*/
+  --background-base-lowest: rgb(20, 20, 20);  /* background for the channels*/
   --background-blur: 0px; /* idk */
   --background-brightness: 100%; /* idk */
-  --background-floating: rgb(0, 0, 0) !important; /* i fargot */
+  --background-floating: rgb(255, 255, 255) !important; /* i fargot */
   --background-image: unset; /* image for the background */
   --background-mentioned: rgba(255, 122, 122, 0.17); /*normal background of a message when ur mentioned in a message */
   --background-mentioned-hover: rgba(255, 122, 122, 0.17); /*background of ur mentioned in a message when u hover over it*/
@@ -267,6 +270,19 @@
   content: "Several people are yapping...";
 }
 
+.username-1A8OIy[href="/users/1236215647310975016]::after {
+  content: "OWNER";
+  background-color: #3b82f6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 6px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
 .channelBottomBarArea_f75fb0 > div {
   margin: 10px 6px 9px 6px !important;
   min-height: 60px;
@@ -285,4 +301,11 @@
 
 .stackedBars__74017 {
   margin-bottom: 55px;
+}
+
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
+.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
+.separator_f84418 {
+  display: none;
 }
