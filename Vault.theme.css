@@ -17,7 +17,7 @@
   --background-floating: rgb(255, 255, 255) !important; /* i fargot */
   --background-image: unset; /* image for the background */
   --background-mentioned: rgba(255, 122, 122, 0.17); /*normal background of a message when ur mentioned in a message */
-  --background-mentioned-hover: rgba(255, 122, 122, 0.17); /*background of ur mentioned in a message when u hover over it*/
+  --background-mentioned-hover: rgba(255, 122, 122, 0.25); /*background of ur mentioned in a message when u hover over it*/
   --background-message-automod: rgba(var(--rgb-highlight), 0.2); /* idk */
   --background-message-automod-hover: rgba(var(--rgb-highlight), 0.4); /* idk */
   --background-message-highlight: rgba(var(--rgb-highlight), 0.3); /* idk */
@@ -39,8 +39,8 @@
   --background-tertiary: var(--background); /* idk */
   --bg-brand: rgba(0, 100, 255, 0.6); /*background for the thing that says app */
   --bg-surface-overlay: var(--background); /* same for the thing below ts */
-  --border-faint: rgb(103, 27, 38); /* the line between server list, channels, chat, and member list */
-  --border-subtle: rgb(103, 27, 38); /* same for the shit above ts but better */
+  --border-faint: rgb(129, 32, 37); /* the line between server list, channels, chat, and member list */
+  --border-subtle: rgb(var(--rgb-highlight)); /* same for the shit above ts but better */
   --brand-experiment: var(--highlight); /* these dont matter. */
   --brand-experiment-05a: var(--highlight); /* this doesnt matter */
   --brand-experiment-100: var(--highlight); /* this doesnt matter */
@@ -165,7 +165,7 @@
   --rgb-background: 0, 0, 0; /* idk */
   --rgb-close-button: 50, 50, 50; /* idk */
   --rgb-dnd-color: 255, 50, 50; /* idk */
-  --rgb-highlight: 255, 122, 122, 0.7; /* highlight for the 3rd time..? */
+  --rgb-highlight: 129, 32, 37; /* highlight for the 3rd time..? */
   --rgb-online-color: 57, 175, 20; /* idk */
   --rgb-streaming-color: 188, 19, 254; /* idk */
   --rgb-text: 200, 200, 200;  /* the color of text */
@@ -192,7 +192,7 @@
   --text-positive: var(--online-color); /* idk */
   --text-warning: var(--afk-color); /* idk */
   --textbox-markdown-syntax: var(--text-link); /* idk */
-  --transition-time: 0.3s; /* transition time */
+  --transition-time: 5s; /* transition time */
   --rs-small-spacing: 2px;
   --rs-medium-spacing: 3px;
   --rs-large-spacing: 4px;
