@@ -39,8 +39,8 @@
   --background-tertiary: var(--background); /* idk */
   --bg-brand: rgba(0, 100, 255, 0.6); /*background for the thing that says app */
   --bg-surface-overlay: var(--background); /* same for the thing below ts */
-  --border-faint: rgb(151, 60, 42); /* the line between server list, channels, chat, and member list */
-  --border-subtle: rgb(151, 60, 42); /* same for the shit above ts but better */
+  --border-faint: rgb(103, 27, 38); /* the line between server list, channels, chat, and member list */
+  --border-subtle: rgb(103, 27, 38); /* same for the shit above ts but better */
   --brand-experiment: var(--highlight); /* these dont matter. */
   --brand-experiment-05a: var(--highlight); /* this doesnt matter */
   --brand-experiment-100: var(--highlight); /* this doesnt matter */
