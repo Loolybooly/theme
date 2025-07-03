@@ -214,11 +214,6 @@
   --rs-phone-visible: none;
 }
 
-*::selection {
-  background: rgba(0, 26, 255, 0) !important;
-  color: rgb(0, 162, 255) !important;
-}
-
 .typing_b88801.base_b88801 {
   margin-bottom: 6px;
   margin-left: 4px;
