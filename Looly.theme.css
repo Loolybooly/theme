@@ -7,430 +7,399 @@
 :root,
 .theme-dark,
 .theme-light {
-    --rgb-afk-color: 255, 255, 51; /* idk */
-    --rgb-background: 0, 0, 0; /* idk */
-    --rgb-close-button: 50, 50, 50; /* idk */
-    --rgb-dnd-color: 255, 50, 50; /* idk */
-    --rgb-highlight: 129, 32, 37; /* highlight for the 3rd time..? */
-    --rgb-online-color: 57, 175, 20; /* idk */
-    --rgb-streaming-color: 188, 19, 254; /* idk */
-    --rgb-text: 200, 200, 200; /* the color of text */
-    --highlight: rgb(var(--rgb-highlight)); /* highlight? */
-    --online-color: rgb(var(--rgb-online-color)); /* idk */
-    --afk-color: rgb(var(--rgb-afk-color)); /* idk */
-    --dnd-color: rgb(var(--rgb-dnd-color)); /* idk */
-    --streaming-color: rgb(var(--rgb-streaming-color)); /* idk */
-    --close-button: rgb(var(--rgb-close-button)); /* idk */
-    --text: rgb(var(--rgb-text)); /* text again? */
-    --header-primary: rgb(255, 255, 255); /* idk */
-    --header-secondary: rgb(200, 200, 200); /* idk */
-    --text-brand: rgb(255, 255, 255); /* idk */
-    --text-link: rgb(75, 75, 255); /* the color a link is */
-    --background: rgba(0, 0, 0); /* background */
-    --background-accent: var(--background); /* idk */
-    --background-base-low: rgb(
-        20,
-        20,
-        20
-    ); /* background for the use profile in the bottom */
-    --background-base-lowest: rgb(20, 20, 20); /* background for the channels*/
-    --background-blur: 0px; /* idk */
-    --background-brightness: 100%; /* idk */
-    --background-floating: rgb(255, 255, 255) !important; /* i fargot */
-    --background-image: unset; /* image for the background */
-    --background-position: center; /* idk */
-    --background-size: cover; /* idk */
-    --background-primary: var(--background); /* idk */
-    --background-secondary: rgb(0, 0, 0) !important; /* idk */
-    --background-secondary-alt: var(--background); /* idk */
-    --background-tertiary: var(--background); /* idk */
-    --background-nested-floating: var(--background); /* idk */
-    --background-surface-high: rgb(
-        20,
-        20,
-        20
-    ); /* background for emebers and profiles */
-    --channeltextarea-background: var(--background); /* idk */
-    --chat-background: var(--background); /* idk */
-    --chat-input-container-background: var(--background); /* idk */
-    --input-background: var(--background); /* idk */
-    --modal-background: var(--background); /* idk */
-    --modal-footer-background: var(--background); /* idk */
-    --primary-630: var(--background); /* idk */
-    --member-list-background: rgb(99, 99, 99); /* doesnt fucking work */
-    --background-mentioned: rgba(
-        48,
-        9,
-        9
-    ); /*normal background of a message when ur mentioned in a message */
-    --background-mentioned-hover: rgb(
-        48,
-        48,
-        48
-    ); /*background of ur mentioned in a message when u hover over it*/
-    --background-message-hover: rgb(
-        27,
-        27,
-        27
-    ); /* when u hover over a message, its this color */
-    --background-message-automod: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --background-message-automod-hover: rgba(
-        var(--rgb-highlight),
-        0.4
-    ); /* idk */
-    --background-message-highlight: rgba(var(--rgb-highlight), 0.3); /* idk */
-    --background-message-highlight-hover: rgb(
-        129,
-        32,
-        37
-    ); /* background for messages u hover over */
-    --background-modifier-hover: rgba(
-        255,
-        255,
-        255,
-        0.1
-    ); /* background for channels you hover over AND mentioned members in the @ list */
-    --background-modifier-selected: rgba(
-        46,
-        46,
-        46,
-        0.322
-    ); /* background for the selected channel */
-    --background-modifier-accent: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --background-modifier-active: rgba(var(--rgb-highlight), 0.3); /* idk */
-    --app-border-frame: rgb(var(--rgb-highlight)); /* idk */
-    --border-faint: rgb(
-        129,
-        32,
-        37
-    ); /* the line between server list, channels, chat, and member list */
-    --border-subtle: rgb(
-        var(--rgb-highlight)
-    ); /* same for the shit above ts but better */
-    --chat-border: var(--highlight); /* idk */
-    --logo-primary: var(--highlight); /* idk */
-    --bg-brand: rgba(
-        0,
-        100,
-        255,
-        0.6
-    ); /*background for the thing that says app */
-    --bg-surface-overlay: var(--background); /* same for the thing below ts */
-    --status-danger: var(--dnd-color); /* idk */
-    --status-positive: var(--online-color); /* idk */
-    --status-warning: var(--afk-color); /* idk */
-    --interactive-normal: rgb(199, 199, 199); /* i dont think i know*/
-    --interactive-hover: rgba(
-        255,
-        255,
-        255,
-        0.911
-    ); /* highlight the hovered channel */
-    --interactive-active: rgb(164, 164, 164); /* i dont think i know */
-    --interactive-muted: rgb(99, 99, 99); /* i dont think i know*/
-    --text-muted: var(--text); /* idk */
-    --text-normal: var(--text); /* idk */
-    --text-danger: var(--dnd-color); /* idk */
-    --text-positive: var(--online-color); /* idk */
-    --text-warning: var(--afk-color); /* idk */
-    --text-link-low-saturation: rgba(var(--rgb-highlight), 0.5); /* idk */
-    --textbox-markdown-syntax: var(--text-link); /* idk */
-    --button-brand-background: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --button-brand-background-hover: rgba(var(--rgb-highlight), 0.7); /* idk */
-    --button-brand-background-active: rgba(var(--rgb-highlight), 1); /* idk */
-    --button-brand-background-disabled: rgba(
-        var(--rgb-highlight),
-        0.2
-    ); /* idk */
-    --button-primary-background: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --button-primary-background-hover: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --button-primary-background-active: rgba(var(--rgb-highlight), 1); /* idk */
-    --button-primary-background-disabled: rgba(
-        var(--rgb-highlight),
-        0.2
-    ); /* idk */
-    --button-filled-brand-background: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --button-filled-brand-background-hover: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --button-filled-brand-background-active: rgba(
-        var(--rgb-highlight),
-        1
-    ); /* idk */
-    --button-filled-brand-background-border: rgba(
-        var(--rgb-highlight),
-        0.5
-    ); /* idk */
-    --button-danger-background: rgba(var(--rgb-close-button), 0.2); /* idk */
-    --button-danger-background-hover: rgba(
-        var(--rgb-close-button),
-        0.7
-    ); /* idk */
-    --button-danger-background-active: rgba(
-        var(--rgb-close-button),
-        1
-    ); /* idk */
-    --button-danger-background-disabled: rgba(
-        var(--rgb-close-button),
-        0.2
-    ); /* idk */
-    --button-positive-background: rgba(var(--rgb-online-color), 0.2); /* idk */
-    --button-positive-background-hover: rgba(
-        var(--rgb-online-color),
-        0.7
-    ); /* idk */
-    --button-positive-background-active: rgba(
-        var(--rgb-online-color),
-        1
-    ); /* idk */
-    --button-positive-background-disabled: rgba(
-        var(--rgb-online-color),
-        0.2
-    ); /* idk */
-    --button-outline-primary-background: rgba(
-        var(--rgb-highlight),
-        0.5
-    ); /* idk */
-    --button-outline-primary-background-hover: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --button-outline-primary-background-active: rgba(
-        var(--rgb-highlight),
-        1
-    ); /* idk */
-    --button-outline-primary-border: rgba(var(--rgb-highlight), 0.5); /* idk */
-    --button-outline-primary-border-hover: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --button-outline-primary-border-active: rgba(
-        var(--rgb-highlight),
-        1
-    ); /* idk */
-    --button-outline-primary-text: rgba(var(--rgb-highlight), 0.5); /* idk */
-    --button-outline-primary-text-hover: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --button-outline-primary-text-active: rgba(
-        var(--rgb-highlight),
-        1
-    ); /* idk */
-    --button-outline-danger-background: rgba(
-        var(--rgb-close-button),
-        0.5
-    ); /* idk */
-    --button-outline-danger-background-hover: rgba(
-        var(--rgb-close-button),
-        0.7
-    ); /* idk */
-    --button-outline-danger-background-active: rgba(
-        var(--rgb-close-button),
-        1
-    ); /* idk */
-    --button-outline-danger-border: rgba(
-        var(--rgb-close-button),
-        0.5
-    ); /* idk */
-    --button-outline-danger-border-hover: rgba(
-        var(--rgb-close-button),
-        0.7
-    ); /* idk */
-    --button-outline-danger-border-active: rgba(
-        var(--rgb-close-button),
-        1
-    ); /* idk */
-    --button-outline-danger-text: rgba(var(--rgb-close-button), 0.5); /* idk */
-    --button-outline-danger-text-hover: rgba(
-        var(--rgb-close-button),
-        0.7
-    ); /* idk */
-    --button-outline-danger-text-active: rgba(
-        var(--rgb-close-button),
-        1
-    ); /* idk */
-    --button-outline-positive-background: rgba(
-        var(--rgb-online-color),
-        0.5
-    ); /* idk */
-    --button-outline-positive-background-hover: rgba(
-        var(--rgb-online-color),
-        0.7
-    ); /* idk */
-    --button-outline-positive-background-active: rgba(
-        var(--rgb-online-color),
-        1
-    ); /* idk */
-    --button-outline-positive-border: rgba(
-        var(--rgb-online-color),
-        0.5
-    ); /* idk */
-    --button-outline-positive-border-hover: rgba(
-        var(--rgb-online-color),
-        0.7
-    ); /* idk */
-    --button-outline-positive-border-active: rgba(
-        var(--rgb-online-color),
-        1
-    ); /* idk */
-    --button-outline-positive-text: rgba(
-        var(--rgb-online-color),
-        0.5
-    ); /* idk */
-    --button-outline-positive-text-hover: rgba(
-        var(--rgb-online-color),
-        0.7
-    ); /* idk */
-    --button-outline-positive-text-active: rgba(
-        var(--rgb-online-color),
-        1
-    ); /* idk */
-    --scrollbar-auto-scrollbar-color-thumb: var(--highlight); /* idk */
-    --scrollbar-auto-thumb: var(--highlight); /* idk */
-    --scrollbar-thin-thumb: var(--highlight); /* idk */
-    --search-popout-date-picker-border: 1px solid var(--highlight); /* idk */
-    --search-popout-option-filter-text: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --search-popout-option-user-nickname: var(--highlight); /* idk */
-    --search-popout-option-user-username: rgba(
-        var(--rgb-highlight),
-        0.7
-    ); /* idk */
-    --spoiler-hidden-background: var(--highlight); /* idk */
-    --spoiler-revealed-background: rgba(var(--rgb-highlight), 0.2); /* idk */
-    --transition-time: 5s; /* transition time */
-    --profile-body-background-color: rgb(0, 0, 0) !important; /* idk */
-    --profile-gradient-button-color: rgb(0, 0, 0) !important; /* idk */
-    --profile-gradient-note-background-color: rgb(0, 0, 0) !important; /* idk */
-    --profile-gradient-overlay-color: rgb(0, 0, 0) !important; /* idk */
-    --profile-gradient-primary-color: rgb(0, 0, 0) !important; /* idk */
-    --profile-gradient-secondary-color: rgb(0, 0, 0) !important; /* idk */
-    --rs-small-spacing: 2px;
-    --rs-medium-spacing: 3px;
-    --rs-large-spacing: 4px;
-    --rs-small-width: 2px;
-    --rs-medium-width: 3px;
-    --rs-large-width: 4px;
-    --rs-avatar-shape: 50%;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-offline-color: #636b75;
-    --rs-streaming-color: #643da7;
-    --rs-invisible-color: #747f8d;
-    --rs-self-speaking-color: #57d39b;
-    --rs-phone-color: var(--rs-online-color);
-    --rs-phone-visible: none;
+  --rgb-afk-color: 255, 255, 51; /* idk */
+  --rgb-background: 0, 0, 0; /* idk */
+  --rgb-close-button: 50, 50, 50; /* idk */
+  --rgb-dnd-color: 255, 50, 50; /* idk */
+  --rgb-highlight: 129, 32, 37; /* highlight for the 3rd time..? */
+  --rgb-online-color: 57, 175, 20; /* idk */
+  --rgb-streaming-color: 188, 19, 254; /* idk */
+  --rgb-text: 200, 200, 200; /* the color of text */
+  --highlight: rgb(var(--rgb-highlight)); /* highlight? */
+  --online-color: rgb(var(--rgb-online-color)); /* idk */
+  --afk-color: rgb(var(--rgb-afk-color)); /* idk */
+  --dnd-color: rgb(var(--rgb-dnd-color)); /* idk */
+  --streaming-color: rgb(var(--rgb-streaming-color)); /* idk */
+  --close-button: rgb(var(--rgb-close-button)); /* idk */
+  --text: rgb(var(--rgb-text)); /* text again? */
+  --header-primary: rgb(255, 255, 255); /* idk */
+  --header-secondary: rgb(200, 200, 200); /* idk */
+  --text-brand: rgb(255, 255, 255); /* idk */
+  --text-link: rgb(75, 75, 255); /* the color a link is */
+  --background: rgba(0, 0, 0); /* background */
+  --background-accent: var(--background); /* idk */
+  --background-base-low: rgb(
+    20,
+    20,
+    20
+  ); /* background for the use profile in the bottom */
+  --background-base-lowest: rgb(20, 20, 20); /* background for the channels*/
+  --background-blur: 0px; /* idk */
+  --background-brightness: 100%; /* idk */
+  --background-floating: rgb(255, 255, 255) !important; /* i fargot */
+  --background-image: unset; /* image for the background */
+  --background-position: center; /* idk */
+  --background-size: cover; /* idk */
+  --background-primary: var(--background); /* idk */
+  --background-secondary: rgb(0, 0, 0) !important; /* idk */
+  --background-secondary-alt: var(--background); /* idk */
+  --background-tertiary: var(--background); /* idk */
+  --background-nested-floating: var(--background); /* idk */
+  --background-surface-high: rgb(
+    20,
+    20,
+    20
+  ); /* background for emebers and profiles */
+  --channeltextarea-background: var(--background); /* idk */
+  --chat-background: var(--background); /* idk */
+  --chat-input-container-background: var(--background); /* idk */
+  --input-background: var(--background); /* idk */
+  --modal-background: var(--background); /* idk */
+  --modal-footer-background: var(--background); /* idk */
+  --primary-630: var(--background); /* idk */
+  --member-list-background: rgb(99, 99, 99); /* doesnt fucking work */
+  --background-mentioned: rgba(
+    48,
+    9,
+    9
+  ); /*normal background of a message when ur mentioned in a message */
+  --background-mentioned-hover: rgb(
+    48,
+    48,
+    48
+  ); /*background of ur mentioned in a message when u hover over it*/
+  --background-message-hover: rgb(
+    27,
+    27,
+    27
+  ); /* when u hover over a message, its this color */
+  --background-message-automod: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --background-message-automod-hover: rgba(var(--rgb-highlight), 0.4); /* idk */
+  --background-message-highlight: rgba(var(--rgb-highlight), 0.3); /* idk */
+  --background-message-highlight-hover: rgb(
+    129,
+    32,
+    37
+  ); /* background for messages u hover over */
+  --background-modifier-hover: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* background for channels you hover over AND mentioned members in the @ list */
+  --background-modifier-selected: rgba(
+    46,
+    46,
+    46,
+    0.322
+  ); /* background for the selected channel */
+  --background-modifier-accent: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --background-modifier-active: rgba(var(--rgb-highlight), 0.3); /* idk */
+  --app-border-frame: rgb(var(--rgb-highlight)); /* idk */
+  --border-faint: rgb(
+    129,
+    32,
+    37
+  ); /* the line between server list, channels, chat, and member list */
+  --border-subtle: rgb(
+    var(--rgb-highlight)
+  ); /* same for the shit above ts but better */
+  --chat-border: var(--highlight); /* idk */
+  --logo-primary: var(--highlight); /* idk */
+  --bg-brand: rgba(
+    0,
+    100,
+    255,
+    0.6
+  ); /*background for the thing that says app */
+  --bg-surface-overlay: var(--background); /* same for the thing below ts */
+  --status-danger: var(--dnd-color); /* idk */
+  --status-positive: var(--online-color); /* idk */
+  --status-warning: var(--afk-color); /* idk */
+  --interactive-normal: rgb(199, 199, 199); /* i dont think i know*/
+  --interactive-hover: rgba(
+    255,
+    255,
+    255,
+    0.911
+  ); /* highlight the hovered channel */
+  --interactive-active: rgb(164, 164, 164); /* i dont think i know */
+  --interactive-muted: rgb(99, 99, 99); /* i dont think i know*/
+  --text-muted: var(--text); /* idk */
+  --text-normal: var(--text); /* idk */
+  --text-danger: var(--dnd-color); /* idk */
+  --text-positive: var(--online-color); /* idk */
+  --text-warning: var(--afk-color); /* idk */
+  --text-link-low-saturation: rgba(var(--rgb-highlight), 0.5); /* idk */
+  --textbox-markdown-syntax: var(--text-link); /* idk */
+  --button-brand-background: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --button-brand-background-hover: rgba(var(--rgb-highlight), 0.7); /* idk */
+  --button-brand-background-active: rgba(var(--rgb-highlight), 1); /* idk */
+  --button-brand-background-disabled: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --button-primary-background: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --button-primary-background-hover: rgba(var(--rgb-highlight), 0.7); /* idk */
+  --button-primary-background-active: rgba(var(--rgb-highlight), 1); /* idk */
+  --button-primary-background-disabled: rgba(
+    var(--rgb-highlight),
+    0.2
+  ); /* idk */
+  --button-filled-brand-background: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --button-filled-brand-background-hover: rgba(
+    var(--rgb-highlight),
+    0.7
+  ); /* idk */
+  --button-filled-brand-background-active: rgba(
+    var(--rgb-highlight),
+    1
+  ); /* idk */
+  --button-filled-brand-background-border: rgba(
+    var(--rgb-highlight),
+    0.5
+  ); /* idk */
+  --button-danger-background: rgba(var(--rgb-close-button), 0.2); /* idk */
+  --button-danger-background-hover: rgba(
+    var(--rgb-close-button),
+    0.7
+  ); /* idk */
+  --button-danger-background-active: rgba(var(--rgb-close-button), 1); /* idk */
+  --button-danger-background-disabled: rgba(
+    var(--rgb-close-button),
+    0.2
+  ); /* idk */
+  --button-positive-background: rgba(var(--rgb-online-color), 0.2); /* idk */
+  --button-positive-background-hover: rgba(
+    var(--rgb-online-color),
+    0.7
+  ); /* idk */
+  --button-positive-background-active: rgba(
+    var(--rgb-online-color),
+    1
+  ); /* idk */
+  --button-positive-background-disabled: rgba(
+    var(--rgb-online-color),
+    0.2
+  ); /* idk */
+  --button-outline-primary-background: rgba(
+    var(--rgb-highlight),
+    0.5
+  ); /* idk */
+  --button-outline-primary-background-hover: rgba(
+    var(--rgb-highlight),
+    0.7
+  ); /* idk */
+  --button-outline-primary-background-active: rgba(
+    var(--rgb-highlight),
+    1
+  ); /* idk */
+  --button-outline-primary-border: rgba(var(--rgb-highlight), 0.5); /* idk */
+  --button-outline-primary-border-hover: rgba(
+    var(--rgb-highlight),
+    0.7
+  ); /* idk */
+  --button-outline-primary-border-active: rgba(
+    var(--rgb-highlight),
+    1
+  ); /* idk */
+  --button-outline-primary-text: rgba(var(--rgb-highlight), 0.5); /* idk */
+  --button-outline-primary-text-hover: rgba(
+    var(--rgb-highlight),
+    0.7
+  ); /* idk */
+  --button-outline-primary-text-active: rgba(var(--rgb-highlight), 1); /* idk */
+  --button-outline-danger-background: rgba(
+    var(--rgb-close-button),
+    0.5
+  ); /* idk */
+  --button-outline-danger-background-hover: rgba(
+    var(--rgb-close-button),
+    0.7
+  ); /* idk */
+  --button-outline-danger-background-active: rgba(
+    var(--rgb-close-button),
+    1
+  ); /* idk */
+  --button-outline-danger-border: rgba(var(--rgb-close-button), 0.5); /* idk */
+  --button-outline-danger-border-hover: rgba(
+    var(--rgb-close-button),
+    0.7
+  ); /* idk */
+  --button-outline-danger-border-active: rgba(
+    var(--rgb-close-button),
+    1
+  ); /* idk */
+  --button-outline-danger-text: rgba(var(--rgb-close-button), 0.5); /* idk */
+  --button-outline-danger-text-hover: rgba(
+    var(--rgb-close-button),
+    0.7
+  ); /* idk */
+  --button-outline-danger-text-active: rgba(
+    var(--rgb-close-button),
+    1
+  ); /* idk */
+  --button-outline-positive-background: rgba(
+    var(--rgb-online-color),
+    0.5
+  ); /* idk */
+  --button-outline-positive-background-hover: rgba(
+    var(--rgb-online-color),
+    0.7
+  ); /* idk */
+  --button-outline-positive-background-active: rgba(
+    var(--rgb-online-color),
+    1
+  ); /* idk */
+  --button-outline-positive-border: rgba(
+    var(--rgb-online-color),
+    0.5
+  ); /* idk */
+  --button-outline-positive-border-hover: rgba(
+    var(--rgb-online-color),
+    0.7
+  ); /* idk */
+  --button-outline-positive-border-active: rgba(
+    var(--rgb-online-color),
+    1
+  ); /* idk */
+  --button-outline-positive-text: rgba(var(--rgb-online-color), 0.5); /* idk */
+  --button-outline-positive-text-hover: rgba(
+    var(--rgb-online-color),
+    0.7
+  ); /* idk */
+  --button-outline-positive-text-active: rgba(
+    var(--rgb-online-color),
+    1
+  ); /* idk */
+  --scrollbar-auto-scrollbar-color-thumb: var(--highlight); /* idk */
+  --scrollbar-auto-thumb: var(--highlight); /* idk */
+  --scrollbar-thin-thumb: var(--highlight); /* idk */
+  --search-popout-date-picker-border: 1px solid var(--highlight); /* idk */
+  --search-popout-option-filter-text: rgba(var(--rgb-highlight), 0.7); /* idk */
+  --search-popout-option-user-nickname: var(--highlight); /* idk */
+  --search-popout-option-user-username: rgba(
+    var(--rgb-highlight),
+    0.7
+  ); /* idk */
+  --spoiler-hidden-background: var(--highlight); /* idk */
+  --spoiler-revealed-background: rgba(var(--rgb-highlight), 0.2); /* idk */
+  --transition-time: 5s; /* transition time */
+  --profile-body-background-color: rgb(0, 0, 0) !important; /* idk */
+  --profile-gradient-button-color: rgb(0, 0, 0) !important; /* idk */
+  --profile-gradient-note-background-color: rgb(0, 0, 0) !important; /* idk */
+  --profile-gradient-overlay-color: rgb(0, 0, 0) !important; /* idk */
+  --profile-gradient-primary-color: rgb(0, 0, 0) !important; /* idk */
+  --profile-gradient-secondary-color: rgb(0, 0, 0) !important; /* idk */
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 3px;
+  --rs-large-spacing: 4px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 3px;
+  --rs-large-width: 4px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-self-speaking-color: #57d39b;
+  --rs-phone-color: var(--rs-online-color);
+  --rs-phone-visible: none;
 }
 
 .typing_b88801.base_b88801 {
-    margin-bottom: 6px;
-    margin-left: 4px;
+  margin-bottom: 6px;
+  margin-left: 4px;
 }
 
 .typing_b88801.base_b88801 > * {
-    line-height: 10px !important;
-    font-size: 10px !important;
+  line-height: 10px !important;
+  font-size: 10px !important;
 }
 
 .typing_b88801.base_b88801 > div > span > strong > div > svg {
-    height: 10px !important;
-    margin-left: 3px;
-    margin-top: 3px;
+  height: 10px !important;
+  margin-left: 3px;
+  margin-top: 3px;
 }
 
 .typingDots_b88801 > .ellipsis_b88801 + .text_b88801 {
-    font-size: 0;
-    height: 16px;
+  font-size: 0;
+  height: 16px;
 }
 
 .typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .typingDots_b88801 > .ellipsis_b88801 + .text_b88801 > strong::after {
-    color: var(--text-secondary);
-    font-weight: 500;
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 .typingDots_b88801
-    > .ellipsis_b88801
-    + .text_b88801
-    > strong:last-child::after {
-    content: " is yapping...";
+  > .ellipsis_b88801
+  + .text_b88801
+  > strong:last-child::after {
+  content: " is yapping...";
 }
 
 .typingDots_b88801
-    > .ellipsis_b88801
-    + .text_b88801
-    > strong:last-child:not(:first-child)::after {
-    content: " are yapping...";
+  > .ellipsis_b88801
+  + .text_b88801
+  > strong:last-child:not(:first-child)::after {
+  content: " are yapping...";
 }
 
 .typingDots_b88801
-    > .ellipsis_b88801
-    + .text_b88801
-    > strong:nth-last-child(2)::after {
-    content: " and ";
+  > .ellipsis_b88801
+  + .text_b88801
+  > strong:nth-last-child(2)::after {
+  content: " and ";
 }
 
 .typingDots_b88801
-    > .ellipsis_b88801
-    + .text_b88801
-    > strong:nth-last-child(3)::after {
-    content: ", ";
+  > .ellipsis_b88801
+  + .text_b88801
+  > strong:nth-last-child(3)::after {
+  content: ", ";
 }
 
 .typingDots_b88801
-    > .ellipsis_b88801
-    + .text_b88801:not(:has(> strong))::after {
-    font-size: 12px;
-    content: "Several people are yapping...";
+  > .ellipsis_b88801
+  + .text_b88801:not(:has(> strong))::after {
+  font-size: 12px;
+  content: "Several people are yapping...";
 }
 
 .username-1A8OIy[href="/users/1236215647310975016"]::after {
-    content: "OWNER";
-    background-color: #3b82f6;
-    color: white;
-    padding: 2px 6px;
-    border-radius: 3px;
-    font-size: 10px;
-    font-weight: 600;
-    margin-left: 6px;
-    vertical-align: middle;
-    text-transform: uppercase;
+  content: "OWNER";
+  background-color: #3b82f6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-left: 6px;
+  vertical-align: middle;
+  text-transform: uppercase;
 }
 
 .channelBottomBarArea_f75fb0 > div {
-    margin: 10px 6px 9px 6px !important;
-    min-height: 60px;
+  margin: 10px 6px 9px 6px !important;
+  min-height: 60px;
 }
 
 .channelBottomBarArea_f75fb0 > div > div.scrollableContainer__74017 {
-    position: absolute;
-    bottom: 0;
-    transform: translateY(-4px);
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(-4px);
+  width: 100%;
 }
 
 .attachWrapper__0923f > button {
-    margin-left: -9px !important;
+  margin-left: -9px !important;
 }
 
 .stackedBars__74017 {
-    margin-bottom: 55px;
-}
-
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(1),
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(2),
-.button_f7ecac.hoverBarButton_f84418:nth-of-type(3),
-.separator_f84418 {
-    display: none;
+  margin-bottom: 55px;
 }
