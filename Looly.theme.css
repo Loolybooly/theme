@@ -7,7 +7,7 @@
 :root,
 .theme-dark,
 .theme-light {
-  --rgb-afk-color: 255, 255, 51; /* idk */
+  --rgb-afk-color: 45, 45, 45; /* idk */
   --rgb-background: 0, 0, 0; /* idk */
   --rgb-close-button: 50, 50, 50; /* idk */
   --rgb-dnd-color: 255, 50, 50; /* idk */
@@ -24,7 +24,7 @@
   --text: rgb(var(--rgb-text)); /* text again? */
   --header-primary: rgb(255, 255, 255); /* idk */
   --header-secondary: rgb(200, 200, 200); /* idk */
-  --text-brand: rgb(255, 255, 255); /* idk */
+  --text-brand: rgb(45, 45, 45); /* idk */
   --text-link: rgb(75, 75, 255); /* the color a link is */
   --background: rgba(0, 0, 0); /* background */
   --background-accent: var(--background); /* idk */
@@ -36,7 +36,7 @@
   --background-base-lowest: rgb(20, 20, 20); /* background for the channels*/
   --background-blur: 0px; /* idk */
   --background-brightness: 100%; /* idk */
-  --background-floating: rgb(255, 255, 255) !important; /* i fargot */
+  --background-floating: rgb(45, 45, 45) !important; /* i fargot */
   --background-image: unset; /* image for the background */
   --background-position: center; /* idk */
   --background-size: cover; /* idk */
