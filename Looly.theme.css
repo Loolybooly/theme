@@ -117,12 +117,7 @@
   --status-positive: var(--online-color); /* idk */
   --status-warning: var(--afk-color); /* idk */
   --interactive-normal: rgb(199, 199, 199); /* i dont think i know*/
-  --interactive-hover: rgba(
-    255,
-    255,
-    255,
-    0.911
-  ); /* highlight the hovered channel */
+  --interactive-hover: rgb(50, 50, 50); /* highlight the hovered channel */
   --interactive-active: rgb(164, 164, 164); /* i dont think i know */
   --interactive-muted: rgb(99, 99, 99); /* i dont think i know*/
   --text-muted: var(--text); /* idk */
